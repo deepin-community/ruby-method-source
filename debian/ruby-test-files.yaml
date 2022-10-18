@@ -1,0 +1,4 @@
+--- 
+- spec/spec_helper.rb
+- spec/method_source_spec.rb
+- spec/method_source/code_helpers_spec.rb

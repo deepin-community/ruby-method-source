@@ -1,0 +1,22 @@
+Description: Fix paths for spec_helper
+Author: HIGUCHI Daisuke (VDR dai) <dai@debian.org>
+Origin: vendor
+Forwarded: not-needed
+Last-Update: 2017-10-21
+
+--- a/spec/method_source/code_helpers_spec.rb
++++ b/spec/method_source/code_helpers_spec.rb
+@@ -1,4 +1,4 @@
+-require 'spec_helper'
++require 'spec/spec_helper'
+ 
+ describe MethodSource::CodeHelpers do
+   before do
+--- a/spec/method_source_spec.rb
++++ b/spec/method_source_spec.rb
+@@ -1,4 +1,4 @@
+-require 'spec_helper'
++require 'spec/spec_helper'
+ 
+ describe MethodSource do
+ 

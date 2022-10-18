@@ -1,0 +1,3 @@
+version=4
+opts=filenamemangle=s/.+\/v?(\d\S+)\.tar\.gz/method-source-$1\.tar\.gz/ \
+  https://github.com/banister/method_source/tags .*/v?(\d\S+)\.tar\.gz

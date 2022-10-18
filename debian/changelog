@@ -1,0 +1,105 @@
+ruby-method-source (1.0.0-2) unstable; urgency=medium
+
+  * Add Breaks for pry
+
+ -- Utkarsh Gupta <utkarsh@debian.org>  Fri, 03 Apr 2020 00:59:03 +0530
+
+ruby-method-source (1.0.0-1) unstable; urgency=medium
+
+  [ Utkarsh Gupta ]
+  * New upstream version 1.0.0
+  * Fix package wrt cme
+  * Add Rules-Requires-Root: no
+  * Drop runtime dependency on ruby interpreter
+  * Add myself as an uploader
+  * Add salsa-ci.yml
+
+  [ Debian Janitor ]
+  * Bump debhelper from old 11 to 12.
+  * Set debhelper-compat version in Build-Depends.
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
+    Repository-Browse.
+
+ -- Utkarsh Gupta <utkarsh@debian.org>  Sat, 21 Mar 2020 19:27:24 +0530
+
+ruby-method-source (0.9.2-1) unstable; urgency=medium
+
+  * Team upload.
+
+  [ HIGUCHI Daisuke (VDR dai) ]
+  * New upstream version 0.9.2
+  * d/p/0002-Fix-gemspec-version.patch: removed, fixed upstream.
+  * d/watch: use github instead of gemwatch.
+  * d/copyright: eliminate lintian warning: insecure-copyright-format-uri
+  * Update Homepage/Source fields.
+  * Move Vcs-* to salsa.debian.org
+  * Upgrade debhelper to 11.
+  * Bump standard version: 4.2.1 (not changed).
+
+ -- HIGUCHI Daisuke (VDR dai) <dai@debian.org>  Sat, 17 Nov 2018 13:21:41 +0900
+
+ruby-method-source (0.9.0-1) unstable; urgency=medium
+
+  * Team upload.
+
+  [ Cédric Boutillier ]
+  * Remove version in the gem2deb build-dependency
+  * Use https:// in Vcs-* fields
+  * Bump Standards-Version to 3.9.7 (no changes needed)
+  * Run wrap-and-sort on packaging files
+
+  [ HIGUCHI Daisuke (VDR dai) ]
+  * Imported Upstream version 0.9.0
+  * d/control: b-d: ruby-rspec instead of ruby-bacon.
+  - d/p/0001-Fix-paths-for-spec_helper.patch: Fix paths for spec_helper.
+  * eliminate lintian warning: debian-watch-uses-insecure-uri
+  * d/tests/: add for autopkgtest-pkg-ruby.
+  * d/p/0002-Fix-gemspec-version.patch: Fix gemspec version.
+  * Bump standard version: 4.1.1 (not changed)
+
+ -- HIGUCHI Daisuke (VDR dai) <dai@debian.org>  Sat, 21 Oct 2017 22:54:54 +0900
+
+ruby-method-source (0.8.2-2) unstable; urgency=medium
+
+  * Bump standard version: 3.9.6 (not changed)
+  * Rebuild against newer ruby for update rubygems-integration information
+
+ -- Youhei SASAKI <uwabami@gfd-dennou.org>  Tue, 28 Oct 2014 19:11:20 +0900
+
+ruby-method-source (0.8.2-1) unstable; urgency=low
+
+  * Imported Upstream version 0.8.2
+
+ -- Youhei SASAKI <uwabami@gfd-dennou.org>  Thu, 08 Aug 2013 00:55:13 +0900
+
+ruby-method-source (0.8.1-2) unstable; urgency=low
+
+  [ Youhei SASAKI ]
+  * Bump Standard version: 3.9.4
+  * Upload to unstable
+
+  [ Cédric Boutillier ]
+  * debian/control: remove obsolete DM-Upload-Allowed flag
+  * use canonical URI in Vcs-* fields
+
+ -- Youhei SASAKI <uwabami@gfd-dennou.org>  Wed, 19 Jun 2013 18:58:52 +0900
+
+ruby-method-source (0.8.1-1) experimental; urgency=low
+
+  * Imported Upstream version 0.8.1
+  * Format URI update: DEP5 -> Formant/1.0
+
+ -- Youhei SASAKI <uwabami@gfd-dennou.org>  Sun, 20 Jan 2013 07:02:12 +0900
+
+ruby-method-source (0.7.1-1) unstable; urgency=low
+
+  * Imported Upstream version 0.7.1
+  * Bump Standard Version: 3.9.3
+
+ -- Youhei SASAKI <uwabami@gfd-dennou.org>  Mon, 23 Apr 2012 11:32:02 +0900
+
+ruby-method-source (0.7.0-1) unstable; urgency=low
+
+  * Initial release (Closes: #657608)
+
+ -- Youhei SASAKI <uwabami@gfd-dennou.org>  Fri, 27 Jan 2012 18:45:53 +0900
